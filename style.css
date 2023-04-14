@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+p{
+    display: flex;
+    width: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(61, 76, 214);
+    color:azure;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+}
+a:hover header{
+    background:aliceblue;
+}
+body{
+    
+    line-height: 1.3;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgb(235, 154, 48);
+}
+#mainpic{
+    object-fit: cover;
+
+    
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    border-style: solid ;
+    border-color: aquamarine;
+    border-radius: 10px;
+    border-width: 10px;
+    margin-bottom: 30px;
+    
+}
+#secpic{
+    object-fit: cover;
+
+    
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    border-style: solid ;
+    border-color: aquamarine;
+    border-radius: 10px;
+    border-width: 10px;
+    margin-bottom: 30px;
+
+}
+a:hover #mainpic{
+    width: 40%;
+    object-fit: contain;
+    opacity: .3;
+}
+
+.profile{
+    object-fit: cover;
+    width: 10%;
+    height: 10%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
